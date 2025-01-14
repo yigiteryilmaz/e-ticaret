@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController {
     @GetMapping
     public String hi(){
-        return "welcome hi deneme ";
+        return "Merhaba, hoşgeldiniz:)";
     }
 }
